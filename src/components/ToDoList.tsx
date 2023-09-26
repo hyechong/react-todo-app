@@ -33,6 +33,7 @@ import ToDo from './ToDo';
 
 function ToDoList() {
   const toDos = useRecoilValue(toDoState);
+  console.log(toDos);
   // const value = useRecoilValue(toDoState);
   // const modFn = useSetRecoilState(toDoState)
   // const [toDos, setToDos] = useRecoilState(toDoState);
